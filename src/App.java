@@ -1,4 +1,14 @@
+//Práctica de Algoritmos de Ordenamiento
 
+//📌 Información General
+/* 
+- **Título:** Práctica de Algoritmos de Ordenamiento
+- **Asignatura:** Estructura de Datos
+- **Carrera:** Computación
+- **Estudiante:** [Sebastian Rafael Ceron Miranda]
+- **Fecha:** [30/03/2025]
+- **Profesor:** Ing. Pablo Torres
+*/
 import java.util.Scanner;
 
 public class App {
@@ -8,7 +18,7 @@ public class App {
         MetodoInsercion metodoInsercion=new MetodoInsercion();
         MetodoSeleccion metodoSeleccion=new MetodoSeleccion();
         MetodoBurbujaMejorado metodoBurbujaMejorado=new MetodoBurbujaMejorado();
-        int[] arreglo = { 10 ,9, 21, 5 ,15, 2, -1, 0  };
+        int[] arreglo = { 12, -7, 25, 0, -15, 33, 19, -22, 5, 48, -3, 27, -30, 14, 7, -1, 41, 20, -11, 8 };
 
         boolean aux= false;
         boolean pasosBool= false;
